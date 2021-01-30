@@ -6,5 +6,5 @@
 The package can be installed directly from GitHub:
 
 ``` r
-remotes::install_github("christophM/iml")
+remotes::install_github("muskuloes/hellor")
 ```
