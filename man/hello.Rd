@@ -15,3 +15,6 @@ Hello (name)
 \description{
 Prints Hello (name)
 }
+\examples{
+hello("James")
+}

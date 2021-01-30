@@ -12,3 +12,6 @@ hello_world()
 \description{
 Print Hello World!
 }
+\examples{
+hello_world()
+}
