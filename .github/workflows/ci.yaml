@@ -38,10 +38,9 @@ jobs:
           install.packages("pkgdown", type = "binary")
         shell: Rscript {0}
         
-      - name: Coveralls GitHub Action
-        uses: coverallsapp/github-action@v1.1.2
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Test Coverage
+        run: |
+          Rscript -e 'covr::coveralls()'
 
       - name: Install package
         run: R CMD INSTALL .
