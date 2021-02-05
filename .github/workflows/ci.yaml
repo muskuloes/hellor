@@ -36,14 +36,15 @@ jobs:
         run: |
           remotes::install_deps(dependencies = TRUE)
           install.packages("pkgdown", type = "binary")
+          remotes::install_cran("covr")
+        shell: Rscript {0} 
+              
+      - name: Test Coverage
+        run: covr::codecov()
         shell: Rscript {0}
 
       - name: Install package
         run: R CMD INSTALL .
-      
-      - name: Test Coverage
-        run: |
-          Rscript -e 'covr::coveralls()'
 
       - name: Deploy package
         run: |
