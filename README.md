@@ -1,7 +1,6 @@
 # hellor <img src="https://github.com/muskuloes/hellor/blob/main/inst/figures/hellor.png?raw=true" align="right" height=140/>
 [![CI](https://github.com/muskuloes/hellor/workflows/CI/badge.svg?branch=main)](https://github.com/muskuloes/hellor/actions)
-[![Coverage Status](https://coveralls.io/repos/github/muskuloes/hellor/badge.svg?branch=main)](https://coveralls.io/github/muskuloes/hellor?branch=main)
-
+[![codecov](https://codecov.io/gh/muskuloes/hellor/branch/main/graph/badge.svg?token=14YRI3HSFX)](https://codecov.io/gh/muskuloes/hellor)
 
 `hellor` is a "Hello World!" R package, literally !
 ## Installation
